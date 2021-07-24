@@ -1,0 +1,1 @@
+Add a test script that gets the value of the `rand` property in the response JSON and sets it as the value of a variable (at collection or environment scope) named `responseData`.
