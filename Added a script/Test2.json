@@ -1,0 +1,4 @@
+pm.test('skill check', function () {
+    var jsonData = pm.response.json().data;
+    pm.environment.set('responseData',rand);
+});
