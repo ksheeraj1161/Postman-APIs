@@ -1,0 +1,4 @@
+pm.test('Stats include all fields', function () {
+    var jsonData = pm.response.json().data;
+    pm.expect(jsonData).to.have.all.keys('won', 'lost', 'drew');
+});
