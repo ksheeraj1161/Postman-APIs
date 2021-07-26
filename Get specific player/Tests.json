@@ -1,0 +1,7 @@
+pm.test('Status code is 200', function () {
+    pm.response.to.have.status(200); 
+});
+if(pm.response.json().data.played<750) postman.setNextRequest('Get all players');
+
+var player_list=pm.response.json().data.players;
+pm.environment.set('player_id', player_list[Math.floor(Math.random() * player_list.length)].id);
