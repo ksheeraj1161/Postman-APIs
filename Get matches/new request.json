@@ -1,0 +1,5 @@
+{
+  "match": "Cup Final",
+  "when": "{{$randomDateFuture}}",
+  "against": "Academical"
+}
