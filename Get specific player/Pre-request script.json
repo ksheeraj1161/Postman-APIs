@@ -1,0 +1,1 @@
+if(!pm.variables.get('player_id')) pm.variables.set('player_id', -1);
