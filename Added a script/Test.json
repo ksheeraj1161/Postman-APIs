@@ -1,1 +1,0 @@
-pm.test('skill check', function () { let jsonData = JSON.parse(responseBody); pm.environment.set('responseData', jsonData.rand); console.log(pm.environment.get('responseData')) });
